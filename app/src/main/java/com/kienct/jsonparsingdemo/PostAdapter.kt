@@ -35,6 +35,4 @@ class PostAdapter(private val posts: List<Post>) :
             body.text = post.body
         }
     }
-
-
 }

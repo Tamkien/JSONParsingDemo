@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         )
         val gson = Gson()
         val listUserType = object : TypeToken<List<Post?>?>() {}.type
-
         val posts: List<Post> = gson.fromJson(jsonFileString, listUserType)
         val postAdapter = PostAdapter(posts)
         post_view.layoutManager = LinearLayoutManager(this)

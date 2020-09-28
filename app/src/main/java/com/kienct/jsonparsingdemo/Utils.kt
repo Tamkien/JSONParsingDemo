@@ -4,7 +4,6 @@ import android.content.Context
 import java.io.IOException
 import java.io.InputStream
 
-
 object Utils{
     fun getJsonFromAssets(context: Context, fileName : String) : String{
         val jsonString : String
