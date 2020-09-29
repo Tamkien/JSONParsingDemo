@@ -16,7 +16,7 @@ object Utils {
             jsonString = String(buffer)
         } catch (e: IOException) {
             e.printStackTrace()
-            return ""
+            return "omg failed"
         }
         return jsonString
     }
